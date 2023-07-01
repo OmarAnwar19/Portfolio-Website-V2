@@ -4,9 +4,9 @@ const Welcome = () => {
   return (
     <section>
       <h1 className="font-bold text-3xl mb-8 tracking-tighter">
-        Hey, I'm Omar Anwar 👋
+        Hey, I'm Omar 👋
       </h1>
-      <p className="prose prose-neutral dark:prose-invert">
+      <p className="text-dark-600 dark:text-dark-300 mb-4">
         I'm a passionate developer and student, with particular expertise in
         full stack development and data science. My technical skills include
         experience with various full-stack frameworks, data science packages,
@@ -15,8 +15,7 @@ const Welcome = () => {
         my work! I also have a keen interest in the business side of tech, and
         have been part of multiple startups in the past!
       </p>
-      <br />
-      <p className="prose prose-neutral dark:prose-invert">
+      <p className="text-dark-600 dark:text-dark-300 mb-4">
         When I'm not working, you can find me exploring new hiking trails,
         trying out new recipes in the kitchen, or playing board games with
         friends and family. Welcome to my portfolio!

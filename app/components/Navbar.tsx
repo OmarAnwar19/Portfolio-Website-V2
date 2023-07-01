@@ -5,8 +5,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { MdOutlineDarkMode, MdDarkMode } from "react-icons/md";
 import { LayoutGroup, motion } from "framer-motion";
-import { useState } from "react";
-
+import { useTheme } from "next-themes";
 const navItems = {
   "/": {
     name: "home",
@@ -20,15 +19,12 @@ const navItems = {
 };
 
 const Navbar = () => {
+  const { systemTheme, theme, setTheme } = useTheme();
+
   let pathname = usePathname() || "/";
   if (pathname.includes("/blog/")) {
     pathname = "/blog";
   }
-
-  let themeMode = "dark";
-  const toggleMode = () => {
-    themeMode = themeMode === "dark" ? "light" : "dark";
-  };
 
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
@@ -69,8 +65,13 @@ const Navbar = () => {
                   </Link>
                 );
               })}
-              <button className="relative py-1 px-2" onClick={toggleMode}>
-                {themeMode === "dark" ? <MdDarkMode /> : <MdOutlineDarkMode />}
+              <button
+                className="relative py-1 px-2"
+                onClick={() =>
+                  theme == "dark" ? setTheme("light") : setTheme("dark")
+                }
+              >
+                {theme === "dark" ? <MdDarkMode /> : <MdOutlineDarkMode />}
               </button>
             </div>
           </nav>

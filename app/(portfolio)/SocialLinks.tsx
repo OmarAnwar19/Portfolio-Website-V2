@@ -32,17 +32,19 @@ const links = [
 const SocialLinks = () => {
   return (
     <section>
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
+      <ul className="flex flex-row mt-8 mb-8 space-x-4 space-y-0 font-sm text-dark-600 dark:text-dark-300">
         {links.map((item, i) => (
           <li key={`link-${i}`}>
             <a
-              className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+              className="flex items-center hover:text-neutral-400 transition-all"
               rel="noopener noreferrer"
               target="_blank"
               href={item.link}
             >
               <p className="font-bold text-xl h-4">{item.icon}</p>
-              <p className="text-l ml-2 h-5">{item.name}</p>
+              <p className="hidden sm:block font-bold text-l ml-2 h-5">
+                {item.name}
+              </p>
             </a>
           </li>
         ))}
