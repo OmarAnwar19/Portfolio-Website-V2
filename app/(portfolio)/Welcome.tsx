@@ -7,7 +7,10 @@ import { typewriterText } from "lib/iterables";
 
 const Welcome = () => {
   return (
-    <section className="flex flex-col justify-center md:h-[67vh]">
+    <section
+      className="flex flex-col justify-center md:h-[67vh]"
+      data-aos="fade-in"
+    >
       <h1 className="flex flex-row items-center font-bold text-4xl mb-8 tracking-tight">
         Hey, I'm&nbsp;
         <span className="hidden md:block">

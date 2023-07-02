@@ -6,6 +6,7 @@ export default {
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./content/**/*.mdx",
+    "./node_modules/flowbite/**/*.js",
   ],
   darkMode: "class",
   theme: {
@@ -26,5 +27,5 @@ export default {
   future: {
     hoverOnlyWhenSupported: true,
   },
-  plugins: [typography],
+  plugins: [typography, require("flowbite/plugin")],
 } satisfies Config;

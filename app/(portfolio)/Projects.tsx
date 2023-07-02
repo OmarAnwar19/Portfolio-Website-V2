@@ -11,12 +11,12 @@ const Projects = () => {
         {projects.map((project, i) => (
           <div
             key={i}
-            className={`row-span-1 rounded-xl border-2 border-slate-400/10 bg-neutral-100 dark:bg-neutral-900 col-span-2 ${
+            className={`row-span-1 rounded-xl border-2 border-slate-400/10 col-span-2 ${
               [0, 3, 7].includes(i) ? "md:col-span-2" : "md:col-span-1"
             }`}
             data-aos={`${[0, 3, 7].includes(i) ? "fade-right" : "fade-left"}`}
           >
-            <div className="p-6 h-[100%] bg-white border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded-lg shadow">
+            <div className="p-6 h-[100%] bg-neutral-50 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800 rounded-lg shadow">
               <a href="#">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {project.name}
@@ -26,7 +26,7 @@ const Projects = () => {
                 {project.desc}
               </p>
 
-              <ul className="flex flex-row mt-8 mb-8 space-x-4 space-y-0 font-sm text-dark-600 dark:text-dark-300">
+              <ul className="flex flex-row mt-8 mb-4 space-x-4 space-y-0 font-sm text-dark-600 dark:text-dark-300">
                 <li>
                   <a
                     className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"

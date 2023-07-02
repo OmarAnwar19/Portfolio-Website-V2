@@ -11,65 +11,65 @@ const NightSky = () => {
   const { theme } = useTheme();
   const [loading, setLoading] = useState(true);
 
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadFull(engine);
-    await loadStarsPreset(engine);
+  useEffect(() => {
     setLoading(false);
+  }, [loading]);
+
+  const particlesInit = useCallback(async (engine: Engine) => {
+    await loadStarsPreset(engine);
   }, []);
 
-  // if (loading) {
-  //   return <div>Loading particles...</div>;
-  // }
-
-  return (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      options={{
-        preset: "stars",
-        background: {
-          color: {
-            value: "inherit",
-          },
-        },
-        particles: {
-          color: {
-            value: theme === "dark" ? "#fff" : "#707070",
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
+  if (!loading) {
+    return (
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={{
+          preset: "stars",
+          background: {
+            color: {
+              value: "inherit",
             },
-            random: false,
-            speed: 0.3,
-            straight: false,
           },
-          number: {
-            density: {
+          particles: {
+            color: {
+              value: theme === "dark" ? "#fff" : "#707070",
+            },
+            collisions: {
               enable: true,
-              area: 500,
             },
-            value: 80,
+            move: {
+              direction: "none",
+              enable: true,
+              outModes: {
+                default: "bounce",
+              },
+              random: false,
+              speed: 0.3,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                area: 500,
+              },
+              value: 80,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            shape: {
+              type: "circle",
+            },
+            size: {
+              value: { min: 1, max: 3 },
+            },
           },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: { min: 1, max: 3 },
-          },
-        },
-        detectRetina: true,
-      }}
-    />
-  );
+          detectRetina: true,
+        }}
+      />
+    );
+  }
 };
 
 export default NightSky;

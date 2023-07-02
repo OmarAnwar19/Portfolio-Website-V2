@@ -13,7 +13,7 @@ export const experiences = [
     date: "May 2023 - August 2023",
     logo: "/assets/img/logos/kinaxis.png",
     company: "Kinaxis",
-    role: "Software Developer Intern - Clients, Front End Technologies",
+    role: "Software Developer Intern - Clients Technologies",
     desc: "Maintained and developed next-gen RapidResponse client, developing UI with front-end tech. Prioritized UX, collaborated with teams, implemented features, improved performance by 26% with faster front-end-server interactions.",
   },
   {
@@ -24,25 +24,25 @@ export const experiences = [
     desc: "Developing and maintaining Pilot flight planner's front-end, implementing features, fixing issues. Configured analytics tools for decision-making and growth. Led development of analytics tools and CI/CD environment with Google Cloud Platform.",
   },
   {
+    date: "2023 - Present",
+    logo: "/assets/img/logos/inertia.png",
+    company: "Inertia",
+    role: "Co-Founder; Technical Lead and Product Manager",
+    desc: "Co-founded and led Inertia as business director and technical product manager. Led development, designed and implemented software products, systems, and website. Drove marketing and branding initiatives through multiple channels.",
+  },
+  {
     date: "May 2022 - August 2022",
     logo: "/assets/img/logos/gaotek.png",
     company: "GAOTek Inc.",
-    role: "Software Developer  Intern",
+    role: "Software Engineer Intern",
     desc: "Contributed to events management software, developer experience platform, and backend admin platforms. Supported troubleshooting and worked on embedded systems using C, C++, Java, and Python in various capacities.",
   },
   {
     date: "February 2022 - May 2022",
     logo: "/assets/img/logos/digitera.png",
     company: "Digitera Interactive",
-    role: "Full-Stack Development Intern",
+    role: "Full-Stack Developer Intern",
     desc: "Experienced full-stack developer proficient in HTML, CSS, JS, Node.js, PHP, etc. Created efficient interfaces using PHP, HTML, CSS, JS, MySQL. Developed a screening tool, WordPress plugins, and a PromPlanner website dashboard for simplified planning.",
-  },
-  {
-    date: "2023 - Present",
-    logo: "/assets/img/logos/inertia.png",
-    company: "Inertia",
-    role: "Co-Founder; Technical Lead and Product Manager",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit officia eveniet ea quasi adipisci totam laborum culpa cupiditate tempora perspiciatis maxime qui quisquam, vel cumque rerum vitae fugit debitis quae!",
   },
   {
     date: "2018 - 2020",
