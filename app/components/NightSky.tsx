@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import type { Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -9,11 +9,17 @@ import { useTheme } from "next-themes";
 
 const NightSky = () => {
   const { theme } = useTheme();
+  const [loading, setLoading] = useState(true);
 
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadFull(engine);
     await loadStarsPreset(engine);
+    setLoading(false);
   }, []);
+
+  // if (loading) {
+  //   return <div>Loading particles...</div>;
+  // }
 
   return (
     <Particles
@@ -26,27 +32,9 @@ const NightSky = () => {
             value: "inherit",
           },
         },
-        // interactivity: {
-        //   events: {
-        //     onHover: {
-        //       enable: true,
-        //       mode: "repulse",
-        //     },
-        //     resize: true,
-        //   },
-        //   modes: {
-        //     push: {
-        //       quantity: 4,
-        //     },
-        //     repulse: {
-        //       distance: 150,
-        //       duration: 1,
-        //     },
-        //   },
-        // },
         particles: {
           color: {
-            value: theme === "dark" ? "#fff" : "#000",
+            value: theme === "dark" ? "#fff" : "#707070",
           },
           collisions: {
             enable: true,
@@ -64,9 +52,9 @@ const NightSky = () => {
           number: {
             density: {
               enable: true,
-              area: 1000,
+              area: 500,
             },
-            value: 100,
+            value: 80,
           },
           opacity: {
             value: 0.5,

@@ -6,17 +6,19 @@ import { portfolioMetadata } from "lib/metadata";
 import { Providers } from "../utils/providers";
 import { graphik } from "styles/fonts";
 import "../styles/global.css";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = portfolioMetadata;
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className={clsx("dark", graphik.variable)}>
-      <body className="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0 z-0">
+      <body className="antialiased max-w-2xl flex flex-col md:flex-row mx-4 mt-8 md:mx-auto">
+        <main className="flex-auto min-w-0 mt-6 mb-20 flex flex-col px-2 md:px-0 z-0">
           <Providers>
             <NightSky />
             <Navbar />
             {children}
+            <Footer />
           </Providers>
         </main>
       </body>

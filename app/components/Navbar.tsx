@@ -19,7 +19,7 @@ const navItems = {
 };
 
 const Navbar = () => {
-  const { systemTheme, theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   let pathname = usePathname() || "/";
   if (pathname.includes("/blog/")) {
@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="lg:sticky lg:top-20">
         <LayoutGroup>
           <nav
-            className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+            className="flex flex-row items-center justify-between items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
             id="nav"
           >
             <div className="flex flex-row space-x-0 pr-10">
@@ -65,15 +65,15 @@ const Navbar = () => {
                   </Link>
                 );
               })}
-              <button
-                className="relative py-1 px-2"
-                onClick={() =>
-                  theme == "dark" ? setTheme("light") : setTheme("dark")
-                }
-              >
-                {theme === "dark" ? <MdDarkMode /> : <MdOutlineDarkMode />}
-              </button>
             </div>
+            <button
+              className="relative py-1 px-2"
+              onClick={() =>
+                theme == "dark" ? setTheme("light") : setTheme("dark")
+              }
+            >
+              {theme === "dark" ? <MdDarkMode /> : <MdOutlineDarkMode />}
+            </button>
           </nav>
         </LayoutGroup>
       </div>

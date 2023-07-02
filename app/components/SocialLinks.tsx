@@ -29,7 +29,11 @@ const links = [
   },
 ];
 
-const SocialLinks = () => {
+type Props = {
+  showNames?: boolean;
+};
+
+const SocialLinks = ({ showNames = true }: Props) => {
   return (
     <section>
       <ul className="flex flex-row mt-8 mb-8 space-x-4 space-y-0 font-sm text-dark-600 dark:text-dark-300">
@@ -42,9 +46,11 @@ const SocialLinks = () => {
               href={item.link}
             >
               <p className="font-bold text-xl h-4">{item.icon}</p>
-              <p className="hidden sm:block font-bold text-l ml-2 h-5">
-                {item.name}
-              </p>
+              {showNames && (
+                <p className="hidden sm:block font-bold text-l ml-2 h-5">
+                  {item.name}
+                </p>
+              )}
             </a>
           </li>
         ))}

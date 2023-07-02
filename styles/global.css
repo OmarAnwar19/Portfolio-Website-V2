@@ -2,18 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-::selection {
-  color: #fefefe;
-}
-
 html {
   min-width: 360px;
-  /* @apply text-black bg-white dark:text-white dark:bg-[#111010]; */
 }
 
 .prose .anchor {
   @apply absolute invisible no-underline;
-
   margin-left: -1em;
   padding-right: 0.5em;
   width: 80%;

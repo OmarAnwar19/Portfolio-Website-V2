@@ -7,6 +7,7 @@ export default {
     "./components/**/*.{ts,tsx}",
     "./content/**/*.mdx",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
