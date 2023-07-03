@@ -67,7 +67,7 @@ const Navbar = () => {
               })}
             </div>
             <button
-              className="relative py-1 px-2"
+              className="relative py-1 px-2 text-xl"
               onClick={() =>
                 theme == "dark" ? setTheme("light") : setTheme("dark")
               }

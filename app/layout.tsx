@@ -7,6 +7,7 @@ import { Providers } from "../utils/providers";
 import { graphik } from "styles/fonts";
 import "../styles/global.css";
 import Footer from "./components/Footer";
+import Head from "next/head";
 
 export const metadata: Metadata = portfolioMetadata;
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

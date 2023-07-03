@@ -27,5 +27,5 @@ export default {
   future: {
     hoverOnlyWhenSupported: true,
   },
-  plugins: [typography, require("flowbite/plugin")],
+  plugins: [typography],
 } satisfies Config;

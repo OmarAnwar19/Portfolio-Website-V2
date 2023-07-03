@@ -36,7 +36,7 @@ type Props = {
 const SocialLinks = ({ showNames = true }: Props) => {
   return (
     <section>
-      <ul className="flex flex-row mt-8 mb-8 pb-[15px] space-x-4 space-y-0 font-sm text-dark-600 dark:text-dark-300">
+      <ul className="flex flex-row mt-8 mb-6 pb-[15px] space-x-4 space-y-0 font-sm text-dark-600 dark:text-dark-300">
         {links.map((item, i) => (
           <li key={`link-${i}`}>
             <a

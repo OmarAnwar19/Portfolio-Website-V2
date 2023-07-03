@@ -6,6 +6,13 @@ html {
   min-width: 360px;
 }
 
+* {
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .prose .anchor {
   @apply absolute invisible no-underline;
   margin-left: -1em;

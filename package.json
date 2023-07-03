@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@h0rn0chse/night-sky": "^1.0.5",
+    "@headlessui/react": "^1.7.15",
     "@planetscale/database": "^1.7.0",
     "@vercel/analytics": "^1.0.1",
     "@vercel/edge-config": "^0.2.1",
@@ -16,7 +17,6 @@
     "contentlayer": "^0.3.3",
     "date-fns": "^2.30.0",
     "dotenv": "^16.3.1",
-    "flowbite": "^1.6.6",
     "framer-motion": "^10.12.17",
     "googleapis": "^118.0.0",
     "kysely": "^0.25.0",
