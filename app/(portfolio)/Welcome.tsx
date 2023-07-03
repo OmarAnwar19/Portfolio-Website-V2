@@ -8,7 +8,7 @@ import { typewriterText } from "lib/iterables";
 const Welcome = () => {
   return (
     <section
-      className="flex flex-col justify-center h-[75vh] md:h-[67vh]"
+      className="flex flex-col justify-center h-[67vh]"
       data-aos="fade-in"
     >
       <h1 className="flex flex-row items-center font-bold text-4xl mb-8 tracking-tight">
@@ -33,6 +33,18 @@ const Welcome = () => {
         <span className="block md:hidden">Omar</span>
         &nbsp;👋
       </h1>
+      {/* <h1 className="block md:hidden text-2xl text-dark-600 dark:text-dark-300 mb-4 underline">
+        <Typewriter
+          options={{ loop: true }}
+          onInit={(typewriter) => {
+            {
+              typewriterText.map((text) => {
+                typewriter.typeString(text).pauseFor(2000).deleteAll().start();
+              });
+            }
+          }}
+        />
+      </h1> */}
       <p className="text-dark-600 dark:text-dark-300 mb-4">
         I'm Omar Anwar, a passionate developer and student, with particular
         expertise in full stack development and data science. I am always eager
