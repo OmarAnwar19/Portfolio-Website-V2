@@ -17,7 +17,7 @@ const Projects = () => {
             data-aos={`${[0, 3, 7].includes(i) ? "fade-right" : "fade-left"}`}
           >
             <div className="p-6 h-[100%] bg-neutral-50 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800 rounded-lg shadow">
-              <a href="#">
+              <a href={project.ghLink}>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {project.name}
                 </h5>
@@ -34,7 +34,7 @@ const Projects = () => {
                     target="_blank"
                     href={project.ghLink}
                   >
-                    <p className="font-bold text-2xl h-4">
+                    <p className="font-bold text-3xl h-4">
                       <BiCodeAlt />
                     </p>
                   </a>
@@ -47,7 +47,7 @@ const Projects = () => {
                     href={project.showDemo ? project.demoLink : undefined}
                   >
                     <p
-                      className={`font-bold text-2xl h-4 ${
+                      className={`font-bold text-3xl h-4 ${
                         !project.showDemo && "text-neutral-500"
                       }`}
                     >

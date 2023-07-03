@@ -45,7 +45,9 @@ const SocialLinks = ({ showNames = true }: Props) => {
               target="_blank"
               href={item.link}
             >
-              <p className="font-bold text-xl h-4">{item.icon}</p>
+              <p className="font-bold text-3xl mr-3 md:mr-0 md:text-xl h-4">
+                {item.icon}
+              </p>
               {showNames && (
                 <p className="hidden sm:block font-bold text-l ml-2 h-5">
                   {item.name}
