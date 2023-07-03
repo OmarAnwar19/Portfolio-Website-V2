@@ -1,4 +1,6 @@
-# Portfolio-v2
+# Portfolio-Website-V2
+
+Welcome to the new version of my portfolio website! I've updated the original design to be more minimalistic and straight to the point. I have also added missing blog functionality from the original version, and improved upon the mobile responsiveness. 
 
 This repository contains the code and files for my personal portfolio. The portfolio is designed to showcase my work, skills, and experience.
 
