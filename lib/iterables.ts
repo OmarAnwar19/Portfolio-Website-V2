@@ -24,6 +24,13 @@ export const experiences = [
     desc: "Developing and maintaining Pilot flight planner's front-end, implementing features, fixing issues. Configured analytics tools for decision-making and growth. Led development of analytics tools and CI/CD environment with Google Cloud Platform.",
   },
   {
+    date: "June 2023 - Present",
+    logo: "/assets/img/logos/cublueprint.jpg",
+    company: "CU Blueprint",
+    role: "Engineering Project Manager",
+    desc: "Led software development for social change, collaborating with stakeholders to translate requirements into actionable plans. Managed resources, implemented tools, and facilitated communication for successful project delivery.",
+  },
+  {
     date: "2023 - Present",
     logo: "/assets/img/logos/inertia.png",
     company: "Inertia",
@@ -56,7 +63,7 @@ export const experiences = [
     logo: "/assets/img/logos/freelance.png",
     company: "Freelance Developer / Open Source Contributor",
     role: "",
-    desc: "Developed, optimized, and maintained websites using HTML, CSS, Node.js, React.js, PHP, WordPress, SQL, MongoDB, etc. Collaborated with clients, managed large codebases, conducted testing, and stayed updated with industry trends.",
+    desc: "Developed, optimized, and worked on several websites and applications. Collaborated with clients, managed large codebases, conducted testing, and stayed updated with industry trends. Made frequent open-source community contributions.",
   },
 ];
 
