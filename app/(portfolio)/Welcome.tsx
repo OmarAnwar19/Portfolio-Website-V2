@@ -64,7 +64,7 @@ const Welcome = () => {
         <SocialLinks />
       </section>
       <span
-        className="flex relative min-w-full bottom-[-2.5rem] inset-x-0 justify-center animate-bounce text-3xl h-6 w-6 cursor-pointer"
+        className="hidden md:flex relative min-w-full bottom-[-2.5rem] inset-x-0 justify-center animate-bounce text-3xl h-6 w-6 cursor-pointer"
         onClick={() =>
           window.scrollBy({
             left: 0,
