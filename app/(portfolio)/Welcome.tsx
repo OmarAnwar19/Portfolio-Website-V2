@@ -51,10 +51,12 @@ const Welcome = () => {
         />
       </h1> */}
         <p className="text-dark-600 dark:text-dark-300 mb-4">
-          I'm Omar Anwar, a passionate developer and student, with particular
-          expertise in full stack development and data science. I am always
-          eager to learn and explore new technologies and tools that can enhance
-          my work. I also have a keen interest in the business side of tech!
+          I'm Omar Anwar, a passionate developer and student with particular
+          expertise in full stack development and data science learning,
+          studying Computer Science and Business Management, minor in statistics
+          at Carleton University. I am always eager to learn and explore new
+          technologies and tools that can enhance my work. I also have a keen
+          interest in the business side of tech!
         </p>
         <p className="text-dark-600 dark:text-dark-300 mb-4">
           When I'm not working, you can find me exploring new hiking trails,
