@@ -1,7 +1,7 @@
 export const typewriterText = [
   "Software Engineer",
   "Full-Stack Developer",
-  "Data Scientist",
+  "Data Engineer",
   "Co-Founder",
   "Tech Enthusiast",
   "Music Nerd",
@@ -77,7 +77,7 @@ export const projects = [
   },
   {
     name: "Nine Worlds Chat",
-    desc: "A chat app which connects users for worldwide communication!",
+    desc: "A full-stack chat app which connects users for worldwide communication!",
     ghLink: "https://github.com/OmarAnwar19/Chat-App-With-User-Authentication",
     showDemo: false,
     demoLink: "#",
@@ -90,9 +90,10 @@ export const projects = [
     demoLink: "#",
   },
   {
-    name: "NBA Data Analysis",
-    desc: "A data analysis project on the past 10 NBA seasons. Scraping, cleaning, analyzing, and visualizing data. Exploring player, team, and game statistics, as well as different metrics and changes over the years!",
-    ghLink: "https://github.com/OmarAnwar19/NBA-Data-Analysis",
+    name: "LSTM / RF Stocks Forecasting and Dashboard",
+    desc: "A machine learning-based stock prediction and analysis project that utilizes Random Forest and LSTM models to predict stock movements and future prices, respectively; includes a dynamic dashboard that provides valuable insights into stock data as-well as Prophet forecasts.",
+    ghLink:
+      "https://github.com/OmarAnwar19/LSTM-RF-Stocks-Forecasting-Dashboard",
     showDemo: false,
     demoLink: "#",
   },
@@ -128,8 +129,21 @@ export const projects = [
   {
     name: "Portfolio V2",
     desc: "The new version of my portfolio, the one your looking at right now!",
-    img: "/assets/img/cards/weather.jpg",
     ghLink: "https://github.com/OmarAnwar19/Portfolio-v2",
+    showDemo: false,
+    demoLink: "#",
+  },
+  {
+    name: "React PokeDex",
+    desc: "A fun comprehensive PokeDex, made using ReactJs, and PokeAPI!",
+    ghLink: "https://github.com/OmarAnwar19/React-PokeDex",
+    showDemo: false,
+    demoLink: "#",
+  },
+  {
+    name: "NBA Data Analysis",
+    desc: "A data analysis project on the past 10 NBA seasons. Scraping, cleaning, analyzing, and visualizing data. Exploring player, team, and game statistics, as well as different metrics and changes over the years!",
+    ghLink: "https://github.com/OmarAnwar19/NBA-Data-Analysis",
     showDemo: false,
     demoLink: "#",
   },
