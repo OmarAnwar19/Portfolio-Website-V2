@@ -20,7 +20,7 @@ const Welcome = () => {
               onInit={(typewriter) => {
                 typewriter
                   .typeString("Omar")
-                  .pauseFor(3500)
+                  .pauseFor(4500)
                   .deleteAll()
                   .start();
                 {
@@ -51,17 +51,15 @@ const Welcome = () => {
         />
       </h1> */}
         <p className="text-dark-600 dark:text-dark-300 mb-4">
-          I'm Omar Anwar, a passionate developer and student with particular
-          expertise in full stack development and data science, studying
-          Computer Science and Business Management, minor in statistics at
-          Carleton University. I am always eager to learn and explore new
-          technologies and tools that can enhance my work. I also have a keen
-          interest in the business side of tech!
+          I'm Omar Anwar, a passionate developer and student with expertise in
+          full stack development, data science, and a keen interest in the
+          business side of tech. Studying Computer Science and Business
+          Management with a a minor in Statistics at Carleton University.
         </p>
         <p className="text-dark-600 dark:text-dark-300 mb-4">
           When I'm not working, you can find me exploring new hiking trails,
           trying out new recipes in the kitchen, or playing board games with
-          friends and family. Welcome to my portfolio!
+          friends and family. Welcome to my corner of the internet!
         </p>
         <SocialLinks />
       </section>
