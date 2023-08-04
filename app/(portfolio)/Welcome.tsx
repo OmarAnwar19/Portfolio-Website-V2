@@ -54,7 +54,7 @@ const Welcome = () => {
           I'm Omar Anwar, a passionate developer and student with expertise in
           full stack development, data science, and a keen interest in the
           business side of tech. Studying Computer Science and Business
-          Management with a a minor in Statistics at Carleton University.
+          Management with a minor in Statistics at Carleton University.
         </p>
         <p className="text-dark-600 dark:text-dark-300 mb-4">
           When I'm not working, you can find me exploring new hiking trails,
