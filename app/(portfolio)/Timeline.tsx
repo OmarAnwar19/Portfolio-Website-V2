@@ -18,7 +18,7 @@ const Timeline = () => {
             <Disclosure>
               {() => (
                 <>
-                  <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5" />
+                  <span className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700" />
                   <time className="italic mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-400">
                     {item.date}
                   </time>
