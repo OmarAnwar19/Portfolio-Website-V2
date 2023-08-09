@@ -18,7 +18,7 @@ const Projects = () => {
               [0, 3, 7, 10].includes(i) ? "fade-right" : "fade-left"
             }`}
           >
-            <div className="p-6 h-[100%] bg-neutral-50/70 border-2 border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 hover:border-neutral-700 dark:hover:border-neutral-200 rounded-lg shadow">
+            <div className="p-6 h-[100%] bg-neutral-50/70 border-2 border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 hover:border-neutral-600 dark:hover:border-neutral-300 rounded-lg shadow">
               <a href={project.ghLink}>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {project.name}
