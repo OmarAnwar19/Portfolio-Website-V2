@@ -11,14 +11,14 @@ const Projects = () => {
         {projects.map((project, i) => (
           <div
             key={i}
-            className={`row-span-1 rounded-xl border-2 border-slate-400/10 col-span-2 ${
+            className={`row-span-1 rounded-xl col-span-2 ${
               [0, 3, 7, 10].includes(i) ? "md:col-span-2" : "md:col-span-1"
             }`}
             data-aos={`${
               [0, 3, 7, 10].includes(i) ? "fade-right" : "fade-left"
             }`}
           >
-            <div className="p-6 h-[100%] bg-neutral-50/70 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 rounded-lg shadow">
+            <div className="p-6 h-[100%] bg-neutral-50/70 border-2 border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 hover:border-neutral-700 dark:hover:border-neutral-200 rounded-lg shadow">
               <a href={project.ghLink}>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {project.name}

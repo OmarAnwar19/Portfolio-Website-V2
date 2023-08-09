@@ -11,14 +11,14 @@ const Timeline = () => {
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         {experiences.map((item, i) => (
           <li
-            className="mb-5 ml-4 p-3 rounded-lg border-2 border-slate-400/10 bg-neutral-50/70 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 rounded-lg shadow"
+            className="mb-5 ml-4 p-3 rounded-lg border-2 border-slate-400/10 bg-neutral-50/70 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 hover:border-neutral-700 dark:hover:border-neutral-200 rounded-lg shadow"
             key={`item-${i}`}
             data-aos="fade-up"
           >
             <Disclosure>
               {() => (
                 <>
-                  <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700" />
+                  <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5" />
                   <time className="italic mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-400">
                     {item.date}
                   </time>
