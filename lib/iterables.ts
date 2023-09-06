@@ -10,6 +10,13 @@ export const typewriterText = [
 
 export const experiences = [
   {
+    date: "September 2023 - Present",
+    logo: "/assets/img/logos/carleton.jpg",
+    company: "Carleton University",
+    role: "Undergraduate Teaching Assistant",
+    desc: "TA in computer science and math/statistics department, teaching introductory computer science and statistical modelling courses; co-developed course content, led reviews, and managed online platforms to support student learning.",
+  },
+  {
     date: "May 2023 - August 2023",
     logo: "/assets/img/logos/kinaxis.png",
     company: "Kinaxis",
