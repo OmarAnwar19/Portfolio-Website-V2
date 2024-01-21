@@ -90,9 +90,10 @@ export const projects = [
     demoLink: "#",
   },
   {
-    name: "Pilot Weather",
-    desc: "Keep up to date with the latest weather conditions using this react app!",
-    ghLink: "https://github.com/OmarAnwar19/Pilot-Weather",
+    name: "AFCON Data Analysis and Prediction",
+    desc: "Data analysis and scraping of historical AFCON matches to predict the 2023 winner!",
+    ghLink:
+      "https://github.com/OmarAnwar19/AFCON-2023-Data-Analysis-and-Prediction",
     showDemo: false,
     demoLink: "#",
   },
@@ -127,11 +128,13 @@ export const projects = [
     demoLink: "#",
   },
   {
-    name: "Facebook Clone",
-    desc: "A functional clone of the facebook web app front-end, emulating the experience of the Facebook web app, allowing for responsive design, and a comfortable user experience!",
-    ghLink: "https://github.com/OmarAnwar19/Facebook-Clone",
-    showDemo: false,
-    demoLink: "#",
+    name: "Electron Relational Algebra Processor",
+    desc: "A web application that enables users to evaluate complex relational algebra expressions. It provides a user-friendly interface for defining relations, inputting queries, and visualizing the results.",
+    ghLink:
+      "https://github.com/OmarAnwar19/Electron-Relational-Algebra-Processor",
+    showDemo: true,
+    demoLink:
+      "https://omaranwar19.github.io/Electron-Relational-Algebra-Processor/",
   },
   {
     name: "Portfolio V2",
@@ -141,9 +144,9 @@ export const projects = [
     demoLink: "#",
   },
   {
-    name: "React PokeDex",
-    desc: "A fun comprehensive PokeDex, made using ReactJs, and PokeAPI!",
-    ghLink: "https://github.com/OmarAnwar19/React-PokeDex",
+    name: "Facebook Clone",
+    desc: "A  clone of the facebook web app, emulating the basic functionality of the original.",
+    ghLink: "https://github.com/OmarAnwar19/Facebook-Clone",
     showDemo: false,
     demoLink: "#",
   },
