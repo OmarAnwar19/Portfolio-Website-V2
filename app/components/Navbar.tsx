@@ -6,6 +6,7 @@ import Link from "next/link";
 import { MdOutlineDarkMode, MdDarkMode } from "react-icons/md";
 import { LayoutGroup, motion } from "framer-motion";
 import { useTheme } from "next-themes";
+import { resumeLinkTreeLink } from "lib/iterables";
 const navItems = {
   "/": {
     name: "home",
@@ -40,7 +41,7 @@ const Navbar = () => {
                 return (
                   <Link
                     key={path}
-                    href={path}
+                    href={path == "/resume" ? resumeLinkTreeLink : path} 
                     className={clsx(
                       "transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle",
                       {

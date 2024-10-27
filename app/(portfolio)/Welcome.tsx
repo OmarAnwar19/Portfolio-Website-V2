@@ -51,10 +51,13 @@ const Welcome = () => {
         />
       </h1> */}
         <p className="text-dark-600 dark:text-dark-300 mb-4">
-          I'm Omar Anwar, a passionate developer and student with expertise in
-          full stack development, data science, and a keen interest in the
-          business side of tech. Studying Computer Science and Business
-          Management with a minor in Statistics at Carleton University.
+          I'm Omar, an Engineering student at the University of Waterloo, with 
+          a Minor in Computing, passionate about crafting innovative, impactful 
+          solutions, with an interest in Software, Data, and Product. 
+          
+          Driven by a blend of creativity and analytical thinking, I'm an enthusiastic 
+          learner and problem solver, always exploring new ways to apply my 
+          skills and drive meaningful change. 
         </p>
         <p className="text-dark-600 dark:text-dark-300 mb-4">
           When I'm not working, you can find me exploring new hiking trails,

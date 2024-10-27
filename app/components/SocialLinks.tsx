@@ -24,7 +24,7 @@ const links = [
   },
   {
     name: "Resume",
-    link: "https://docs.google.com/document/d/1C2XvpPxBAAoftkQD_oZ6eowBRhJKrlRUX4psGpl_Kos/edit?usp=sharing",
+    link: "https://linktr.ee/oanwar",
     icon: <AiOutlineFileText />,
   },
 ];
