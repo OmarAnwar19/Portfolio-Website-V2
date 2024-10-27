@@ -39,6 +39,13 @@ export const experiences = [
     role: "Embedded Software Engineer Intern",
     desc: "Contributed to events management software, developer experience platform, and backend admin platforms. Supported troubleshooting and worked on embedded systems using C, C++, Java, and Python in various capacities.",
   },
+  {
+    date: "February 2022 - May 2022",
+    logo: "/assets/img/logos/digitera.png",
+    company: "Digitera Interactive",
+    role: "Software Developer Intern",
+    desc: "Pioneered suite of employer-focused screening tools as sole developer with LAMP Stack, cutting candidate evaluation time by 50% and boosting successful hires by 30%. Orchestrated automated testing, reducing bugs by 35%.",
+  },
 ];
 
 export const volunteering = [
