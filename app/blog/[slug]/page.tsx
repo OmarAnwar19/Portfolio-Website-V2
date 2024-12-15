@@ -5,6 +5,8 @@ import { allBlogs } from "contentlayer/generated";
 import Balancer from "react-wrap-balancer";
 import { formatDate } from "utils/formatDate";
 
+export const runtime = 'edge'
+
 export async function generateMetadata({
   params,
 }): Promise<Metadata | undefined> {
