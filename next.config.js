@@ -1,10 +1,9 @@
-export const runtime = 'edge';
-
 const { get } = require("@vercel/edge-config");
 const { withContentlayer } = require("next-contentlayer");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  runtime: "edge",
   images: {
     formats: ["image/avif", "image/webp"],
     // Twitter Profile Picture
