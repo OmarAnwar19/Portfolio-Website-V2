@@ -1,5 +1,5 @@
 import React from "react";
-import { Disclosure } from "@headlessui/react";
+import { Disclosure, Transition } from "@headlessui/react";
 import { volunteering } from "lib/iterables";
 import { MdOutlineExpandMore } from "react-icons/md";
 import Image from "next/image";
@@ -13,7 +13,6 @@ const Volunteering = () => {
           <li
             className="mb-5 ml-4 p-3 rounded-lg border-2 border-slate-400/10 bg-neutral-50/70 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 hover:border-neutral-600 dark:hover:border-neutral-300 rounded-lg shadow"
             key={`item-${i}`}
-            data-aos="fade-up"
           >
             <Disclosure>
               {() => (
@@ -44,9 +43,18 @@ const Volunteering = () => {
                       </p>
                     </span>
                   </Disclosure.Button>
-                  <Disclosure.Panel className="border-l-[2px] ml-[15px] pl-[15px] text-base font-normal mt-2 text-gray-500 dark:text-gray-400 border-neutral-200 dark:border-neutral-700">
-                    {item.desc}
-                  </Disclosure.Panel>
+                  <Transition
+                    enter="transition-height duration-75 ease-in"
+                    enterFrom="max-h-0 opacity-0"
+                    enterTo="max-h-screen opacity-100"
+                    leave="transition-height duration-75 ease-out"
+                    leaveFrom="max-h-screen opacity-100"
+                    leaveTo="max-h-0 opacity-0"
+                  >
+                    <Disclosure.Panel className="border-l-[2px] ml-[15px] pl-[15px] text-base font-normal mt-2 text-gray-500 dark:text-gray-400 border-neutral-200 dark:border-neutral-700">
+                      {item.desc}
+                    </Disclosure.Panel>
+                  </Transition>
                 </>
               )}
             </Disclosure>
