@@ -6,7 +6,7 @@ This repository contains the code and files for my personal portfolio. The portf
 
 ## Live Website
 
-You can visit my portfolio website at [www.omaranwar.me](https://www.omaranwar.me). Feel free to explore and get to know more about me and my work.
+You can visit my portfolio website at [www.oanwar.com](https://www.oanwar.com). Feel free to explore and get to know more about me and my work.
 
 ## Tech Stack
 

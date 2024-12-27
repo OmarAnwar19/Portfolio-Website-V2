@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -21,11 +22,15 @@ const navItems = {
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
-
+  const [mounted, setMounted] = useState(false);
   let pathname = usePathname() || "/";
   if (pathname.includes("/blog/")) {
     pathname = "/blog";
   }
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
@@ -41,7 +46,7 @@ const Navbar = () => {
                 return (
                   <Link
                     key={path}
-                    href={path == "/resume" ? resumeLinkTreeLink : path} 
+                    href={path == "/resume" ? resumeLinkTreeLink : path}
                     className={clsx(
                       "transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle",
                       {
@@ -67,14 +72,16 @@ const Navbar = () => {
                 );
               })}
             </div>
-            <button
-              className="relative py-1 px-2 text-xl"
-              onClick={() =>
-                theme == "dark" ? setTheme("light") : setTheme("dark")
-              }
-            >
-              {theme === "dark" ? <MdDarkMode /> : <MdOutlineDarkMode />}
-            </button>
+            {mounted && (
+              <button
+                className="relative py-1 px-2 text-xl"
+                onClick={() =>
+                  theme == "dark" ? setTheme("light") : setTheme("dark")
+                }
+              >
+                {theme === "light" ? <MdOutlineDarkMode /> : <MdDarkMode />}
+              </button>
+            )}
           </nav>
         </LayoutGroup>
       </div>
