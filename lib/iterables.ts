@@ -17,6 +17,7 @@ export const experiences = [
     company: "Shared Services Canada",
     role: "Junior Technical Project Manager",
     desc: "Co-led planning and execution of large-scale federal projects, coordinating over 300 employees, driving advanced data analytics adoption, and implementing tech upgrades including an internal employee database.",
+    hidden: true,
   },
   {
     date: "May 2024 - August 2024",
@@ -24,6 +25,7 @@ export const experiences = [
     company: "Oklahoma City Thunder",
     role: "Software & Data Solutions Engineering Intern",
     desc: "Developed and optimized data systems and applications for team and player performance, reducing data retrieval time by 35% and implementing advanced metrics for coaching decisions. Managed and implemented several data pipelines.",
+    hidden: true,
   },
   {
     date: "September 2023 - May 2024",
@@ -82,7 +84,7 @@ export const volunteering = [
     logo: "/assets/img/logos/inertia.png",
     company: "Inertia (NPO Start-up)",
     role: "Co-Founder and Head of Product Strategy",
-    desc: "Co-founded a startup aimed at providing students with educational support resources, and connecting them with scholarships and support. Led the end-to-end product lifecycle, from ideation to launch, focusing on user-centric design and seamless integration of business strategies. Developed innovative product features and functionalities that enhanced user engagement, driving an increase in student participation.",
+    desc: "Co-founded a startup aimed at providing students with educational support resources, and connecting them with scholarships and support. Led the end-to-end product lifecycle, from ideation to launch, developing several innovative product features.",
   },
 ];
 
