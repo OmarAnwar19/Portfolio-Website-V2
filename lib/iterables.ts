@@ -12,6 +12,20 @@ export const typewriterText = [
 
 export const experiences = [
   {
+    date: "May 2024 - Present",
+    logo: "/assets/img/logos/ssc.png",
+    company: "Shared Services Canada",
+    role: "Junior Technical Project Manager",
+    desc: "Co-led planning and execution of large-scale federal projects, coordinating over 300 employees, driving advanced data analytics adoption, and implementing tech upgrades including an internal employee database.",
+  },
+  {
+    date: "May 2024 - August 2024",
+    logo: "/assets/img/logos/okc.png",
+    company: "Oklahoma City Thunder",
+    role: "Software & Data Solutions Engineering Intern",
+    desc: "Developed and optimized data systems and applications for team and player performance, reducing data retrieval time by 35% and implementing advanced metrics for coaching decisions. Managed and implemented several data pipelines.",
+  },
+  {
     date: "September 2023 - May 2024",
     logo: "/assets/img/logos/carleton.jpg",
     company: "Carleton University",
@@ -50,20 +64,27 @@ export const experiences = [
 
 export const volunteering = [
   {
+    date: "November 2024 - Present",
+    logo: "/assets/img/logos/uwpm.jpg",
+    company: "UW Product Management Club",
+    role: "Project Manager - Podcast",
+    desc: "Collaborated with a team of 5 to produce weekly podcast episodes, managing timelines and ensuring high-quality content delivery. Implemented workflows and strategies, increasing listener engagement by 30% and enhancing team productivity.",
+  },
+  {
     date: "June 2023 - Present",
     logo: "/assets/img/logos/cublueprint.jpg",
-    company: "CU Blueprint",
-    role: "VP Projects / Engineering Project Manager",
+    company: "Blueprint",
+    role: "VP Technical Projects",
     desc: "Joined Blueprint as a Project Manager, moving on to VP Projects, leading a team of 70+ developers and designers on 8+ projects. Managed project timelines, resources, and deliverables, ensuring project success and client satisfaction.",
   },
   {
-    date: "2023 - Present",
+    date: "June 2023 - Present",
     logo: "/assets/img/logos/inertia.png",
-    company: "Inertia (NPO start-up)",
+    company: "Inertia (NPO Start-up)",
     role: "Co-Founder and Head of Product Strategy",
-    desc: "Co-founded Inertia, a non-profit startup focused on developing a platform for students to find and connect with mentors in their field. Led product development, strategy, and design, ensuring alignment with company goals and user needs.",
+    desc: "Co-founded a startup aimed at providing students with educational support resources, and connecting them with scholarships and support. Led the end-to-end product lifecycle, from ideation to launch, focusing on user-centric design and seamless integration of business strategies. Developed innovative product features and functionalities that enhanced user engagement, driving an increase in student participation.",
   },
-]
+];
 
 export const projects = [
   {
