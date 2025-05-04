@@ -1,9 +1,9 @@
 export const typewriterText = [
+  "Product Manager",
+  "Technical Project Manager",
+  "Data Engineer",
   "Software Engineer",
   "Full-Stack Developer",
-  "Technical Project Manager",
-  "Product Manager",
-  "Data Engineer",
   "Co-Founder",
   "Tech Enthusiast",
   "Music Nerd",
@@ -12,24 +12,40 @@ export const typewriterText = [
 
 export const experiences = [
   {
+    date: "May 2025 - August 2025",
+    logo: "/assets/img/logos/thescore.png",
+    company: "theScore (PENN Entertainment)",
+    role: "Product and Data Science Intern",
+    desc: "Developed predictive models using Python and SQL to forecast game outcomes and inform product decisions. Designed data pipelines, analyzed sports datasets, and delivered insights to optimize models and support analytics teams.",
+    hidden: true,
+  },
+  {
     date: "May 2024 - Present",
     logo: "/assets/img/logos/ssc.png",
     company: "Shared Services Canada",
-    role: "Junior Technical Project Manager",
-    desc: "Co-led planning and execution of large-scale federal projects, coordinating over 300 employees, driving advanced data analytics adoption, and implementing tech upgrades including an internal employee database.",
-    hidden: true,
+    role: "Junior Technical Product Manager",
+    desc: "Directed digital strategy and product management for, defining roadmaps and delivering impactful products for 300+ employees. Led the development of an internal database system, reducing analysis time from days to 30 seconds.",
+    hidden: false,
+  },
+  {
+    date: "April 2025 - Present",
+    logo: "/assets/img/logos/uwaterloo.png",
+    company: "University of Waterloo - Data Analytics Lab",
+    role: "Technical Project Manager",
+    desc: "Led a project with law enforcement, including Chicago PD, to improve case tracking. Defined roadmaps, managed execution, and coordinated teams to ensure on-time delivery and regulatory compliance, leading entire project lifecycle.",
+    hidden: false,
   },
   {
     date: "May 2024 - August 2024",
     logo: "/assets/img/logos/okc.png",
     company: "Oklahoma City Thunder",
-    role: "Software & Data Solutions Engineering Intern",
+    role: "Data Science and Engineering Intern",
     desc: "Developed and optimized data systems and applications for team and player performance, reducing data retrieval time by 35% and implementing advanced metrics for coaching decisions. Managed and implemented several data pipelines.",
-    hidden: true,
+    hidden: false,
   },
   {
     date: "September 2023 - May 2024",
-    logo: "/assets/img/logos/carleton.jpg",
+    logo: "/assets/img/logos/carleton2.png",
     company: "Carleton University",
     role: "Undergraduate Teaching Assistant",
     desc: "TA in computer science and math/statistics department, teaching introductory computer science and statistical modelling courses; co-developed course content, led reviews, and managed online platforms to support student learning.",
@@ -171,6 +187,30 @@ export const projects = [
     showDemo: false,
     demoLink: "#",
   },
+];
+
+export const education = [
+  {
+    date: "Expected 2028",
+    name: "Honours BASc, Industrial and Management Engineering, minor in Computing",
+    gpa: "3.85/4.0",
+    institution: "University of Waterloo",
+    logo: "/assets/img/logos/uwaterloo.png",
+  },
+  {
+    date: "August 2025",
+    name: "Project Management Certificate",
+    institution: "Google",
+    logo: "/assets/img/logos/google.png",
+    // desc: "Real-world training in project planning, Agile/Scrum, stakeholder communication, risk management, and project lifecycle management. Hands-on experience through case studies and projects.",
+  },
+  {
+    date: "2022 - 2024",
+    name: "Honours BCS, Computer Science & Business Management",
+    gpa: "3.97/4.0",
+    institution: "Carleton University",
+    logo: "/assets/img/logos/carleton2.png",
+  }
 ];
 
 export const resumeLinkTreeLink = "https://linktr.ee/oanwar";

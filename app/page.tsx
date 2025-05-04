@@ -6,6 +6,7 @@ import Welcome from "./(portfolio)/Welcome";
 import Projects from "./(portfolio)/Projects";
 import Timeline from "./(portfolio)/Timeline";
 import Volunteering from "./(portfolio)/Volunteering";
+import Education from "./(portfolio)/Education";
 import "aos/dist/aos.css";
 
 const Portfolio = () => {
@@ -17,6 +18,7 @@ const Portfolio = () => {
     <div>
       <Welcome />
       <Timeline />
+      <Education />
       <Volunteering />
       <Projects />
     </div>

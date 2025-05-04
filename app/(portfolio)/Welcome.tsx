@@ -52,12 +52,13 @@ const Welcome = () => {
       </h1> */}
         <p className="text-dark-600 dark:text-dark-300 mb-4">
           I'm Omar, an Engineering student at the University of Waterloo, with 
-          a Minor in Computing, passionate about crafting innovative, impactful 
-          solutions, with an interest in Software, Data, and Product. 
-          
-          Driven by a blend of creativity and analytical thinking, I'm an enthusiastic 
-          learner and problem solver, always exploring new ways to apply my 
-          skills and drive meaningful change. 
+          a Minor in Computing, passionate about building data-driven products and 
+          systems, and leading impactful projects.
+          <br /><br />
+          I'm deeply interested in the intersection of data, product and project 
+          strategy, and operations. With a background in engineering and hands-on 
+          experience leading cross-functional teams, I enjoy turning ambiguity into 
+          actionable plans and products and driving them through to tangible results.
         </p>
         <p className="text-dark-600 dark:text-dark-300 mb-4">
           When I'm not working, you can find me exploring new hiking trails,
