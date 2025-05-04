@@ -21,8 +21,8 @@ const Education = () => {
                   <time className="italic mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-400">
                     {item.date}
                   </time>
-                  <div className="w-full mt-1 items-start flex flex-col md:flex-row md:items-center justify-between gap-2">
-                    <span className="flex flex-row justify-between items-center gap-2">
+                  <div className="w-full mt-1 items-start flex flex-col md:flex-row md:items-center justify-start gap-2">
+                    <span className="flex flex-row justify-start items-center gap-2">
                       <Image
                         alt={`${item.institution} logo`}
                         width={35}
@@ -34,12 +34,9 @@ const Education = () => {
                         {item.institution}
                       </p>
                     </span>
-                    <span className="w-full md:w-auto flex flex-row text-start justify-between items-center gap-2">
+                    <span className="w-full md:w-auto flex flex-row text-end items-center gap-2 ml-auto">
                       <p className="text-lg font-semibold text-neutral-700 dark:text-neutral-400">
                         {item.name}
-                      </p>
-                      <p className="hidden sm:block text-lg">
-                        <MdOutlineExpandMore />
                       </p>
                     </span>
                   </div>
