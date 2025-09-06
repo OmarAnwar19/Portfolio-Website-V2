@@ -5,6 +5,7 @@ import {
   AiOutlineMail,
   AiOutlineFileText,
 } from "react-icons/ai";
+import { resumeLinkTreeLink } from "lib/iterables";
 
 const links = [
   {
@@ -24,7 +25,7 @@ const links = [
   },
   {
     name: "Resume",
-    link: "https://linktr.ee/oanwar",
+    link: resumeLinkTreeLink,
     icon: <AiOutlineFileText />,
   },
 ];

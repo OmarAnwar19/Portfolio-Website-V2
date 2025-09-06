@@ -1,38 +1,54 @@
 export const typewriterText = [
+  "Problem Solver",
+  "Team Player",
+  "Pathfinder",
+  "Engineering Student",
   "Product Manager",
   "Technical Project Manager",
-  "Data Engineer",
-  "Software Engineer",
-  "Full-Stack Developer",
-  "Co-Founder",
-  "Tech Enthusiast",
+  "Data Enthusiast",
   "Music Nerd",
   "Nature Lover",
 ];
 
 export const experiences = [
   {
+    date: "September 2025 - Present",
+    logo: "/assets/img/logos/notion.png",
+    company: "Notion",
+    role: "Campus Program Leader",
+    desc: "Leading Notion's campus ambassador program at the University of Waterloo. Planned and executed campus programs onboarding 100+ students, led a student ambassador team, and boosted cross-campus participation 83% year-over-year through data-driven engagement strategies and events.",
+    hidden: false,
+  },
+  {
     date: "May 2025 - August 2025",
     logo: "/assets/img/logos/thescore.png",
     company: "theScore (PENN Entertainment)",
     role: "Product and Data Science Intern",
-    desc: "Developed predictive models using Python and SQL to forecast game outcomes and inform product decisions. Designed data pipelines, analyzed sports datasets, and delivered insights to optimize models and support analytics teams.",
-    hidden: true,
+    desc: "AnDeveloped Python and SQL predictive models improving real-time game predictions by 18%, optimized database architecture by removing 24.5% of unused tables, and deployed scalable pipelines processing millions of data points.alyzed sports datasets, and delivered insights to optimize models and support analytics teams.",
+    hidden: false,
   },
   {
-    date: "May 2024 - Present",
-    logo: "/assets/img/logos/ssc.png",
-    company: "Shared Services Canada",
-    role: "Junior Technical Product Manager",
-    desc: "Directed digital strategy and product management for, defining roadmaps and delivering impactful products for 300+ employees. Led the development of an internal database system, reducing analysis time from days to 30 seconds.",
+    date: "September 2025 - Present",
+    logo: "/assets/img/logos/gov-can.png",
+    company: "Government of Canada",
+    role: "Technical Project Manager, Regional Programs",
+    desc: "Managed climate initiatives across 44 First Nations, overseeing $13.5M in funding, cutting implementation delays 30%, and developing KPIs to track community outcomes in water safety, flood risk, and emergency response.",
+    hidden: false,
+  },
+  {
+    date: "May 2024 - August 2025",
+    logo: "/assets/img/logos/gov-can.png",
+    company: "Government of Canada",
+    role: "Product Manager, Data Systems",
+    desc: "Led strategy and product management for digital systems impacting 300+ employees, driving adoption of advanced analytics, and developing an automated database reducing analysis time from days to 30 seconds.",
     hidden: false,
   },
   {
     date: "April 2025 - Present",
     logo: "/assets/img/logos/uwaterloo.png",
     company: "University of Waterloo - Data Analytics Lab",
-    role: "Technical Project Manager",
-    desc: "Led a project with law enforcement, including Chicago PD, to improve case tracking. Defined roadmaps, managed execution, and coordinated teams to ensure on-time delivery and regulatory compliance, leading entire project lifecycle.",
+    role: "Product Manager",
+    desc: "Led a 6-person team on a law enforcement CMS, boosting case efficiency 45%, cutting admin 60%, and building analytics pipelines for real-time, compliant decision-making.",
     hidden: false,
   },
   {
@@ -40,7 +56,7 @@ export const experiences = [
     logo: "/assets/img/logos/okc.png",
     company: "Oklahoma City Thunder",
     role: "Data Science and Engineering Intern",
-    desc: "Developed and optimized data systems and applications for team and player performance, reducing data retrieval time by 35% and implementing advanced metrics for coaching decisions. Managed and implemented several data pipelines.",
+    desc: "Built and optimized Python and SQL systems for player and team performance data, accelerating lineup data processing by 35% and developing advanced metrics that improved coaching lineup decisions by 8%.",
     hidden: false,
   },
   {
@@ -82,7 +98,21 @@ export const experiences = [
 
 export const volunteering = [
   {
-    date: "November 2024 - Present",
+    date: "August 2025 - Present",
+    logo: "/assets/img/logos/uwaterloo.png",
+    company: "University of Waterloo Student Housing",
+    role: "Undergraduate Resident Don",
+    desc: "Led a 40+ student community, increasing engagement and conflict resolution, planned 10+ events with 90% attendance, and implemented initiatives with staff that improved student satisfaction by 20%.",
+  },
+  {
+    date: "April 2025 - Present",
+    logo: "/assets/img/logos/colorstack.png",
+    company: "ColorStack",
+    role: "Fellow",
+    desc: "Selected as one of a community of over 1500 Black, Latinx, and underrepresented students in computing nationwide. Participated in professional development, networking, and mentorship programs to support academic and career success in tech.",
+  },
+  {
+    date: "November 2024 - June 2025",
     logo: "/assets/img/logos/uwpm.jpg",
     company: "UW Product Management Club",
     role: "Project Manager - Podcast",
@@ -213,4 +243,4 @@ export const education = [
   }
 ];
 
-export const resumeLinkTreeLink = "https://linktr.ee/oanwar";
+export const resumeLinkTreeLink = "https://www.linkedin.com/in/omar-anwar19/details/experience/";

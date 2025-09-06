@@ -1,15 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import { Disclosure, Transition } from "@headlessui/react";
 import { experiences } from "lib/iterables";
 import { MdOutlineExpandMore } from "react-icons/md";
 import Image from "next/image";
 
+type FilterType = "all" | "internships" | "non-internships";
+
 const Timeline = () => {
+  const [filter, setFilter] = useState<FilterType>("all");
+
+  const filteredExperiences = experiences.filter((item) => {
+    if (filter === "all") return true;
+    const isIntern = item.role.toLowerCase().includes("intern");
+    return filter === "internships" ? isIntern : !isIntern;
+  });
+
   return (
     <section className="mt-[5rem]" data-aos="fade-up">
       <h1 className="font-bold text-2xl mb-8 tracking-tight">Experience</h1>
+      <div className="mb-6 flex gap-2">
+        <button
+          className={`px-3 py-1 rounded ${filter === "all" ? "bg-gray-700 text-white" : "bg-neutral-200 dark:bg-neutral-700"}`}
+          onClick={() => setFilter("all")}
+        >
+          All
+        </button>
+        <button
+          className={`px-3 py-1 rounded ${filter === "internships" ? "bg-gray-700 text-white" : "bg-neutral-200 dark:bg-neutral-700"}`}
+          onClick={() => setFilter("internships")}
+        >
+          Internships
+        </button>
+        <button
+          className={`px-3 py-1 rounded ${filter === "non-internships" ? "bg-gray-700 text-white" : "bg-neutral-200 dark:bg-neutral-700"}`}
+          onClick={() => setFilter("non-internships")}
+        >
+          Non-Internships
+        </button>
+      </div>
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
-        {experiences.map((item, i) => (
+        {filteredExperiences.map((item, i) => (
           <li
             className="mb-5 ml-4 p-3 rounded-lg border-2 border-slate-400/10 bg-neutral-50/70 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800/70 hover:border-neutral-600 dark:hover:border-neutral-300 rounded-lg shadow"
             key={`item-${i}`}

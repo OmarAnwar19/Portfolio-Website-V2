@@ -7,7 +7,7 @@ import Image from "next/image";
 const Volunteering = () => {
   return (
     <section className="mt-[5rem]" data-aos="fade-up">
-      <h1 className="font-bold text-2xl mb-8 tracking-tight">Community Work</h1>
+      <h1 className="font-bold text-2xl mb-8 tracking-tight">Extracurriculars</h1>
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         {volunteering.map((item, i) => (
           <li
