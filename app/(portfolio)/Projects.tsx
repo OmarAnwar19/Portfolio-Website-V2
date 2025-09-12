@@ -6,7 +6,7 @@ import { projects } from "lib/iterables";
 const Projects = () => {
   return (
     <section className="mt-[5rem]" data-aos="fade-up">
-      <h1 className="font-bold text-2xl mb-8 tracking-tight">Key Projects</h1>
+      <h1 className="font-bold text-2xl mb-8 tracking-tight">Technical Projects</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {projects.map((project, i) => (
           <div

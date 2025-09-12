@@ -7,6 +7,7 @@ import Projects from "./(portfolio)/Projects";
 import Timeline from "./(portfolio)/Timeline";
 import Volunteering from "./(portfolio)/Volunteering";
 import Education from "./(portfolio)/Education";
+import Certifications from "./(portfolio)/Certifications";
 import "aos/dist/aos.css";
 
 const Portfolio = () => {
@@ -19,6 +20,7 @@ const Portfolio = () => {
       <Welcome />
       <Timeline />
       <Education />
+      <Certifications />
       <Volunteering />
       <Projects />
     </div>

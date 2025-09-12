@@ -126,7 +126,7 @@ export const volunteering = [
     desc: "Joined Blueprint as a Project Manager, moving on to VP Projects, leading a team of 70+ developers and designers on 8+ projects. Managed project timelines, resources, and deliverables, ensuring project success and client satisfaction.",
   },
   {
-    date: "June 2023 - Present",
+    date: "June 2023 - September 2024",
     logo: "/assets/img/logos/inertia.png",
     company: "Inertia (NPO Start-up)",
     role: "Co-Founder and Head of Product Strategy",
@@ -228,18 +228,27 @@ export const education = [
     logo: "/assets/img/logos/uwaterloo.png",
   },
   {
-    date: "August 2025",
-    name: "Project Management Certificate",
-    institution: "Google",
-    logo: "/assets/img/logos/google.png",
-    // desc: "Real-world training in project planning, Agile/Scrum, stakeholder communication, risk management, and project lifecycle management. Hands-on experience through case studies and projects.",
-  },
-  {
     date: "2022 - 2024",
     name: "Honours BCS, Computer Science & Business Management",
     gpa: "3.97/4.0",
     institution: "Carleton University",
     logo: "/assets/img/logos/carleton2.png",
+  }
+];
+
+export const certifications = [
+  {
+    date: "In Progress",
+    name: "Certified Associate in Project Management (CAPM)",
+    institution: "Project Management Institute",
+    logo: "/assets/img/logos/pmi.png",
+  },
+  {
+    date: "May 2025",
+    name: "Project Management Certificate",
+    institution: "Google",
+    logo: "/assets/img/logos/google.png",
+    // desc: "Real-world training in project planning, Agile/Scrum, stakeholder communication, risk management, and project lifecycle management. Hands-on experience through case studies and projects.",
   }
 ];
 
